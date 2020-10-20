@@ -1,2 +1,6 @@
 venv
 secret.py
+__pycache__
+message-debug.txt
+message.txt
+number.txt
