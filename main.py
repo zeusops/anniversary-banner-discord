@@ -27,6 +27,8 @@ else:
 
 client = Client()
 URL = "https://banner.zeusops.com/image/banner.png?q={}"
+if DEBUG:
+    URL=f"{URL}&rainbow"
 with open('number.txt', 'r') as f:
     try:
         number = int(f.read())
