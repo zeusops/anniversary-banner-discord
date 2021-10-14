@@ -18,6 +18,7 @@ if DEBUG:
 else:
     SERVERID = 219564389462704130  # Zeus Operations
     CHANNELID = 287747328264372225  # welcome
+    MESSAGEFILE = 'message.txt'
     try:
         with open(MESSAGEFILE, 'r') as f:
             MESSAGEID = int(f.read())
