@@ -37,7 +37,7 @@ with open('number.txt', 'r') as f:
 message = None
 
 
-@tasks.loop(seconds=65)
+@tasks.loop(seconds=15)
 async def update():
     global number
     global message
